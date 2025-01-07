@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/header_logo.png';
 import '../styles/header.css';
 
 const Header: React.FC = () => {
@@ -12,7 +13,7 @@ const Header: React.FC = () => {
             {/* ロゴ部分 */}
             <div className="left">
               <a href="#">
-                <img src="img/header_logo.png" alt="Logo" />
+                <img src={logo} alt="Logo" />
               </a>
             </div>
             {/* ハンバーガーメニュー */}

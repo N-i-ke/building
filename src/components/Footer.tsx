@@ -1,4 +1,5 @@
 import React from 'react';
+import footer from '../assets/footer_logo.png';
 
 const Footer: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="footer__inner">
         <div className="footer__box">
           <div className="left">
-            <img src="img/footer_logo.png" alt="Footer Logo" />
+            <img src={footer} alt="Footer Logo" />
           </div>
           <div className="right">
             <ul className="list">
